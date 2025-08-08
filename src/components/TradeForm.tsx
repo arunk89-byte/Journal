@@ -10,7 +10,7 @@ interface TradeFormProps {
 const CURRENCY_PAIRS = [
   'EUR/USD', 'GBP/USD', 'USD/JPY', 'USD/CHF', 'AUD/USD', 'USD/CAD',
   'NZD/USD', 'EUR/GBP', 'EUR/JPY', 'GBP/JPY', 'BTC/USDT', 'ETH/USDT',
-  'BNB/USDT', 'ADA/USDT', 'SOL/USDT', 'DOT/USDT'
+  'BNB/USDT', 'ADA/USDT', 'SOL/USDT', 'DOT/USDT', 'XAU/USD', 'USTEC', 'US-30'
 ];
 
 export default function TradeForm({ onTradeAdded, isDarkMode }: TradeFormProps) {
